@@ -11,6 +11,10 @@ import javax.validation.constraints.Size;
  */
 public class PersonForm {
 
+	/*
+	 * The @ annotations are for the javax.validation library
+	 * Otherwise, this is a POJO
+	 */
     @NotNull
     @Size(min=2, max=30)
     private String name;
