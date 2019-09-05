@@ -24,12 +24,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
     public static void main(String[] args) throws Throwable {
+        SpringApplication.run(Application.class, args);
         //Launches the application
     	//NO web.xml file
     	//100% Java!!!
     	//Run from the command line or as an executable JAR
     	//Or you can build a WAR file
-        SpringApplication.run(Application.class, args);
     }
 
 }
