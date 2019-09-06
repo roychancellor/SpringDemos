@@ -62,6 +62,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
      * The code below gives a more secure way to do password validation by hashing the password
      * NOTE: the username is "user" and the password is "secret123"
      */
+    //This password would come from a database retrieve
     private static final String ENCODED_PASSWORD = "$2a$10$AIUufK8g6EFhBcumRRV2L.AQNz3Bjp7oDQVFiO5JJMBFZQ6x2/R/2";
 
     @Override
